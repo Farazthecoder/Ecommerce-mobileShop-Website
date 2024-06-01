@@ -1,0 +1,461 @@
+
+/* first break point for the website */
+
+@media screen  and  (max-width:1244px){
+    .main-section {
+        max-width: 80%;
+        margin: 2rem auto;
+        background-color: rgb(23, 60, 60);
+        height: auto;
+        padding: 2rem;
+        border-radius: 2rem;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+      }
+      
+      .main-section > video {
+        height: auto;
+        width: auto;
+      }
+}
+
+
+/* second break point at 1120px  */
+
+@media screen and (max-width: 1120px) {
+    .mobiles_list {
+        max-width: 100%;
+        height: auto;
+        margin: 1rem 0;
+        /* background-color: aqua; */
+      }
+
+      .mobiles_list > .mobile_container {
+        max-width: 80%;
+        height: auto;
+        /* background-color: aqua; */
+        margin: 1rem auto;
+        padding: 1rem 2rem;
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+      }
+      
+      .first {
+        width: 40%;
+        height: 42rem;
+        background-color: rgb(23, 60, 60);
+        border: 3px solid lightskyblue;
+        border-radius: 20px;
+        overflow: hidden;
+        padding-bottom: 2rem;
+      }
+}
+
+
+
+/* third break point */
+
+
+@media  screen and (max-width:844px) {
+    
+    /* navbar section started */
+
+    nav {
+        max-width: 100%;
+        height: auto;
+        background-color: rgb(46, 82, 95);
+        display: grid;
+        /* justify-content: center; */
+        /* padding: 1rem; */
+        /* align-items: center; */
+        /* flex-direction: column; */
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      nav > h1 {
+        font-size: 4rem;
+        font-weight: 600;
+        color: black;
+      }
+
+      /* navbar section ended */
+
+      /* brand section started */
+
+    .brands_names {
+        max-width: 100%;
+        height: auto;
+        margin: 2rem 0;
+      }
+      
+      .brands_names > h1 {
+        text-align: center;
+        font-size: 5rem;
+        font-weight: 600;
+        text-align: center;
+        color: rgb(62, 125, 126);
+      }
+      
+      .img_container {
+        width: 80%;
+        /* margin: 1rem 0; */
+        /* background-color: aqua; */
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+      }
+      
+      .img_container > img {
+        width: 12rem;
+        height: 8rem;
+      }
+
+      /* brand section ended */
+
+      /* mobiles section started */
+      
+      .mobiles_list {
+        max-width: 100%;
+        height: auto;
+        margin: 1rem 0;
+        /* background-color: aqua; */
+      }
+      
+      .mobiles_list > h1 {
+        text-align: center;
+        font-size: 5rem;
+        font-weight: 600;
+        text-align: center;
+        color: rgb(62, 125, 126);
+      }
+      .mobiles_list > .mobile_container {
+        max-width: 80%;
+        height: auto;
+        /* background-color: aqua; */
+        margin: 1rem auto;
+        padding: 1rem 2rem;
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+      }
+
+     .first {
+        width: 40%;
+        height: auto;
+        background-color: rgb(23, 60, 60);
+        border: 3px solid lightskyblue;
+        border-radius: 20px;
+        overflow: hidden;
+        /* padding-bottom: 2rem; */
+      }
+      
+      
+      .first > img {
+        width: 100%;
+        height: 50%;
+      }
+      
+      .first > .mobile_info {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+      }
+      
+      .first > .mobile_info > h1 {
+        font-size: 2rem;
+        color: rgb(187, 254, 254);
+      }
+      
+      .first > .mobile_info > h3 {
+        font-size: 1.2rem;
+        color: rgb(187, 254, 254);
+        text-align: center;
+      }
+      
+      .original {
+        text-decoration: line-through;
+        color: rgb(13, 122, 122);
+        font-style: italic;
+      }
+      
+      .cart {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      
+      .cart > h1 {
+        font-size: 1.2rem;
+        color: rgb(187, 254, 254);
+      }
+      
+      .cart h1 > button {
+        font-size: 1.2rem;
+        padding: 0 1rem;
+        border-radius: 2rem;
+      }
+      
+      .cart h1 > span {
+        color: lightseagreen;
+      }
+      
+      .addItem {
+        font-size: 1rem;
+      }
+      /* mobile section ended */
+
+      /* footer section started */
+        
+      .footer_section {
+        max-width: 100%;
+        height: 20rem;
+        background-color: rgb(46, 82, 95);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        padding: 2rem 0;
+      }
+      
+      .email_info {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+      }
+      
+      .email_info > label {
+        font-size: 2rem;
+        color: black;
+      }
+      
+      .email_info > input {
+        font-size: 2rem;
+        background-color: black;
+        border-radius: 2rem;
+        color: white;
+      }
+      .email_info > input::placeholder {
+        font-size: 2rem;
+        padding: 1rem; 
+      }
+      
+      .links > ul {
+        display: flex;
+        list-style-type: none;
+        gap: 1rem;
+        font-size: 2rem;
+        color: black;
+      }
+      
+      .links a {
+        color: black;
+        text-decoration: underline;
+      }
+      
+      .links a:hover {
+        color: lightblue;
+        transition: all 0.3s;
+      }
+      
+      .footer_section > h1 {
+        font-size: 2rem;
+        color: black;
+      }
+      /* footer section ended */
+}
+
+
+@media  screen and (max-width:578px) {
+
+    /* nav section started */
+    nav > button {
+        max-width: 50%;
+        font-size: 2rem;
+        background-color: rgb(132, 239, 239);
+        padding: 0 1rem;
+        border-radius: 2rem;
+      }
+      
+      nav > button > a {
+        text-decoration: none;
+      }
+      
+    /* nav section ended */
+    
+    /* brand section started */
+      .img_container > img {
+        width: 8rem;
+        height: 5rem;
+      }
+    /* brand section ended */
+
+     /* mobiles section started */
+      
+     .mobiles_list {
+        max-width: 100%;
+        height: auto;
+        margin: 1rem 0;
+        /* background-color: aqua; */
+      }
+      
+      .mobiles_list > h1 {
+        text-align: center;
+        font-size: 5rem;
+        font-weight: 600;
+        text-align: center;
+        color: rgb(62, 125, 126);
+      }
+      .mobiles_list > .mobile_container {
+        max-width: 80%;
+        height: auto;
+        /* background-color: aqua; */
+        margin: 1rem auto;
+        padding: 1rem 2rem;
+        display: flex;
+        /* gap: 4rem; */
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+
+     .first {
+        width: 100%;
+        height: auto;
+        background-color: rgb(23, 60, 60);
+        border: 3px solid lightskyblue;
+        border-radius: 20px;
+        overflow: hidden;
+        /* padding-bottom: 2rem; */
+      }
+      
+      
+      .first > img {
+        width: 100%;
+        height: 50%;
+      }
+      
+      .first > .mobile_info {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+      }
+      
+      .first > .mobile_info > h1 {
+        font-size: 3rem;
+        color: rgb(187, 254, 254);
+      }
+      
+      .first > .mobile_info > h3 {
+        font-size: 1.5rem;
+        color: rgb(187, 254, 254);
+        text-align: center;
+      }
+      
+      .original {
+        text-decoration: line-through;
+        color: rgb(13, 122, 122);
+        font-style: italic;
+      }
+      
+      .cart {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      
+      .cart > h1 {
+        font-size: 1.5rem;
+        color: rgb(187, 254, 254);
+      }
+      
+      .cart h1 > button {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+        border-radius: 2rem;
+      }
+      
+      .cart h1 > span {
+        color: lightseagreen;
+      }
+      
+      .addItem {
+        font-size: 2rem;
+      }
+      /* mobile section ended */
+      
+
+      /* footer section started */
+        
+      .footer_section {
+        max-width: 100%;
+        height: auto;
+        background-color: rgb(46, 82, 95);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        padding: 2rem 0;
+      }
+      
+      .email_info {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+      }
+      
+      .email_info > label {
+        font-size: 2rem;
+        color: black;
+      }
+      
+      .email_info > input {
+        font-size: 2rem;
+        background-color: black;
+        border-radius: 2rem;
+        color: white;
+      }
+      .email_info > input::placeholder {
+        font-size: 2rem;
+        padding: 1rem; 
+      }
+      
+      .links > ul {
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 2rem;
+        color: black;
+      }
+      
+      .links a {
+        color: black;
+        text-decoration: underline;
+      }
+      
+      .links a:hover {
+        color: lightblue;
+        transition: all 0.3s;
+      }
+      
+      .footer_section > h1 {
+        font-size: 2rem;
+        color: black;
+      }
+      /* footer section ended */
+
+
+}

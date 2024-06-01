@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.order-confirmation {
+    background-color: #ffffff;
+    padding: 20px 5vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+.order-confirmation h1 {
+    color: #28a745;
+}
+
+.order-details {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.order-details h2 {
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.order-details p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.order-details strong {
+    color: #495057;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .order-confirmation {
+        padding: 20px 5%;
+    }
+
+    .order-details p {
+        font-size: 0.9rem;
+    }
+}

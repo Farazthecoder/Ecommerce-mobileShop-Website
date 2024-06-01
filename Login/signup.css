@@ -1,0 +1,74 @@
+body {
+    background-color: #121212; /* Black background */
+    color: #e0f7fa; /* Light blue text */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 10px; /* Added padding for mobile devices */
+}
+
+.signup-container {
+    background-color: #1e1e1e; /* Darker black for the form background */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px; /* Limit the width for larger screens */
+    box-sizing: border-box;
+}
+
+.signup-container h2 {
+    margin-bottom: 20px;
+    color: #00bcd4; /* Dark cyan for the headings */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #b2ebf2; /* Lighter blue for the labels */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #303030; /* Darker background for input fields */
+    color: #e0f7fa; /* Light blue text inside input fields */
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0097a7; /* Dark cyan for the button */
+    color: #e0f7fa; /* Light blue text for the button */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00796b; /* Slightly darker cyan on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .signup-container {
+        padding: 20px;
+        width: 100%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}

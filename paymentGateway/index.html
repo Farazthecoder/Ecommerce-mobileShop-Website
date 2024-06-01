@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="/paymentGateway/style.css">
+</head>
+<body>
+    <div class="payment-container">
+        <h1>Payment Gateway</h1>
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="pincode">Pincode</label>
+                <input type="number" id="pincode" name="pincode" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="payment-method">Payment Method</label>
+                <select id="payment-method" name="paymentMethod" required>
+                    <option value="Cash On Delivery">Cash on Delivery</option>
+                    <option value="card">Debit card</option>
+                    <option value="cod">Credit Card</option>
+                </select>
+            </div>
+            <button type="submit" id="submit">Place Order</button>
+        </form>
+    </div>
+    <script src="/paymentGateway/script.js"></script>
+</body>
+</html>
