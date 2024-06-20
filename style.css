@@ -301,6 +301,7 @@ nav > button > a {
 .footer_section > h1 {
   font-size: 3rem;
   color: black;
+  text-align:center;
 }
 
 /* classes used for functionality in javascript */
